@@ -1,10 +1,19 @@
 * { border: 1px solid red; }
 
-body {
+html {
+  font-size: 62.5%; /* 10pt */
   font-family: Roboto;
 }
 
+body {
+  font-size: 1.6rem;
+}
+
 .content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .top-bar,
@@ -19,12 +28,12 @@ body {
 }
 
 .header-logo,
-.hero h1 {
+hero-heading-text {
   color: #F9FAF8;
 }
 
 .header-logo {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .nav {}
@@ -45,15 +54,15 @@ body {
 
 .hero,
 .nav a {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #E5E7EB;
 }
 
 .hero {}
 
-.hero h1 {
+hero-heading-text {
   font-weight: 900;
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 button,
@@ -69,13 +78,14 @@ button,
 
 .second-container {}
 
-.second-container h2,
-.third-container .quotation {
+information-heading-text,
+.quotation {
   color: #1F2937;
 }
 
-.second-container h2 {
-  font-size: 36px;
+
+information-heading-text {
+  font-size: 3.6rem;
   font-weight: 900;
 }
 
@@ -89,21 +99,21 @@ button,
   background-color: #E5E7EB;
 }
 
-.third-container .quotation {
+.quotation {
   font-weight: 300;
-  font-size: 36px;
+  font-size: 3.6rem;
   font-style: italic;
 }
 
-.third-container .attribution {}
+.attribution {}
 
 .fourth-container {}
 
-.fourth-container .cta {}
+.cta {}
 
-.fourth-container .cta .cta-text {}
+.cta-text {}
 
-.fourth-container .cta .cta-text h3 {}
+cta-heading-text {}
 
 .fourth-container .cta button {}
 
