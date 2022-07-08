@@ -1,20 +1,56 @@
-body {}
+body {
+  font-family: Roboto;
+}
+
+.top-bar,
+.first-container,
+.footer {
+  background-color: #1F2937;
+}
 
 .top-bar {}
 
-.header-logo {}
+.header-logo,
+.hero h1 {
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
+}
 
 .nav {}
 
-.nav ul {}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-.nav a {}
+.nav a {
+  text-decoration: none;
+}
 
 .first-container {}
 
+
+.hero,
+.nav a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 .hero {}
 
-.hero h1 {}
+.hero h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+button,
+.cta {
+  background-color: #3882F6;
+}
 
 .hero a {}
 
@@ -24,7 +60,15 @@ body {}
 
 .second-container {}
 
-.second-container h2 {}
+.second-container h2,
+.third-container .quotation {
+  color: #1F2937;
+}
+
+.second-container h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
 
 .second-container .card-container {}
 
@@ -32,9 +76,15 @@ body {}
 
 .second-container .card-container .card .thumbnail {}
 
-.third-container {}
+.third-container {
+  background-color: #E5E7EB;
+}
 
-.third-container .quotation {}
+.third-container .quotation {
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+}
 
 .third-container .attribution {}
 
