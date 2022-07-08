@@ -1,0 +1,51 @@
+body {}
+
+.top-bar {}
+
+.header-logo {}
+
+.nav {}
+
+.nav ul {}
+
+.nav a {}
+
+.first-container {}
+
+.hero {}
+
+.hero h1 {}
+
+.hero a {}
+
+.hero button {}
+
+.hero img {}
+
+.second-container {}
+
+.second-container h2 {}
+
+.second-container .card-container {}
+
+.second-container .card-container .card {}
+
+.second-container .card-container .card .thumbnail {}
+
+.third-container {}
+
+.third-container .quotation {}
+
+.third-container .attribution {}
+
+.fourth-container {}
+
+.fourth-container .cta {}
+
+.fourth-container .cta .cta-text {}
+
+.fourth-container .cta .cta-text h3 {}
+
+.fourth-container .cta button {}
+
+.footer {}
