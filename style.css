@@ -7,6 +7,8 @@ html {
 
 body {
   font-size: 1.6rem;
+  color: #E5E7EB;
+  margin: 0;
 }
 
 .content {
@@ -14,6 +16,7 @@ body {
   margin-right: auto;
   width: 100%;
   max-width: 1000px;
+  /* display: flex; */
 }
 
 .top-bar,
@@ -22,7 +25,9 @@ body {
   background-color: #1F2937;
 }
 
-.top-bar {
+.top-bar .content {
+  width: 100%;
+  flex: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -34,9 +39,13 @@ hero-heading-text {
 
 .header-logo {
   font-size: 2.4rem;
+  /* flex-shrink: 1; */
 }
 
-.nav {}
+.nav {
+  display: flex;
+  align-items: center;
+}
 
 .nav ul {
   list-style-type: none;
@@ -49,7 +58,9 @@ hero-heading-text {
   text-decoration: none;
 }
 
-.first-container {}
+.first-container .content {
+  display: flex;
+}
 
 
 .hero,
@@ -74,12 +85,14 @@ button,
 
 .hero button {}
 
-.hero img {}
-
-.second-container {}
+.hero img {
+  max-height: 100%;
+  max-width: 100%;
+}
 
 information-heading-text,
-.quotation {
+.quotation,
+.card {
   color: #1F2937;
 }
 
@@ -89,11 +102,11 @@ information-heading-text {
   font-weight: 900;
 }
 
-.second-container .card-container {}
+.card-container {}
 
-.second-container .card-container .card {}
+.card {}
 
-.second-container .card-container .card .thumbnail {}
+.card .thumbnail {}
 
 .third-container {
   background-color: #E5E7EB;
@@ -107,14 +120,12 @@ information-heading-text {
 
 .attribution {}
 
-.fourth-container {}
-
 .cta {}
 
 .cta-text {}
 
 cta-heading-text {}
 
-.fourth-container .cta button {}
+.cta button {}
 
 .footer {}
