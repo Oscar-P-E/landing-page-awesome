@@ -1,8 +1,17 @@
 * { border: 1px solid red; }
+.first-container .content { border: 3px solid yellow; padding: 5px; }
+.hero-and-img-container { border: 1px solid red; padding: 5px; }
+.hero { border: 1px solid yellow; padding: 5px; }
+.img-wrapper { border: 1px solid blue; padding: 5px; }
 
 html {
+  box-sizing: border-box;
   font-size: 62.5%; /* 10pt */
   font-family: Roboto;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
